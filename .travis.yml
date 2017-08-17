@@ -1,0 +1,15 @@
+sudo: required
+
+language: python
+python:
+  - 3.6
+
+services:
+  - docker
+
+before_script:
+  - docker info
+
+script:
+  - docker build -t am3rig0/ups2influxdb .
+  - docker run am3rig0/ups2influxdb ls -al /CyberpowerUpsStats.py

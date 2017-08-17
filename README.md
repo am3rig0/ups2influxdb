@@ -21,7 +21,7 @@ Usage
 ``` docker run -d -v /srv/cyberpower-ups:/data --restart always am3rig0/ups2influxdb ``` 
 
 config.ini
-======
+------
 
 ``` 
 [GENERAL]

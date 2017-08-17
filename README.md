@@ -1,6 +1,8 @@
 # ups2influxdb
 ups2influxdb pushes CyberPower UPS stats to InfluxDB
 
+[![Build Status](https://travis-ci.org/am3rig0/ups2influxdb.svg?branch=master)](https://travis-ci.org/am3rig0/ups2influxdb)
+
 Container to run Matthew Carey's CyberPower UPS data collection python script  (https://github.com/barrycarey/Cyberpower-UPS-Stats-For-InfluxDB)
 
 **Pre-reqs:** 

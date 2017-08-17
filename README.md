@@ -14,7 +14,7 @@ Container to run Matthew Carey's CyberPower UPS data collection python script  (
 **Usage:** 
 
 - populate config.ini with relevant details
-- run container
+- start container
 
 ``` docker run -d -v /srv/cyberpower-ups:/data --restart always am3rig0/ups2influxdb ``` 
 

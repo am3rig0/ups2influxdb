@@ -5,26 +5,24 @@ ups2influxdb pushes CyberPower UPS stats to InfluxDB
 
 Container to run Matthew Carey's CyberPower UPS data collection python script  (https://github.com/barrycarey/Cyberpower-UPS-Stats-For-InfluxDB)
 
-Alt-H1
+Pre-reqs
 ======
-**Pre-reqs:** 
 
 - Running instance of InfluxDB
 - Running instance of CyberPower PowerPanel Business Edition
 - config.ini
 
-Alt-H1
+Usage
 ======
-**Usage:** 
 
 - populate config.ini with relevant details
 - start container
 
 ``` docker run -d -v /srv/cyberpower-ups:/data --restart always am3rig0/ups2influxdb ``` 
 
-Alt-H1
+config.ini
 ======
-**config.ini**
+
 ``` 
 [GENERAL]
 Delay = 2

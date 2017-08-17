@@ -1,7 +1,0 @@
-Dockerfile
-.dockerignore
-.travis.yml
-README.md
-build.sh
-release.sh
-VERSION

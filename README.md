@@ -18,7 +18,7 @@ Usage
 - populate config.ini with relevant details
 - start container
 
-``` docker run -d -v /srv/cyberpower-ups:/data --restart always am3rig0/ups2influxdb ``` 
+``` docker run -d -v /srv/cyberpower-ups:/data --name ups2influxdb --restart always am3rig0/ups2influxdb ``` 
 
 config.ini
 ------
